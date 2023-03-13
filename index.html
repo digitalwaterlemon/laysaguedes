@@ -1,160 +1,1047 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curso de Automaquiagem</title>
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+		<title>AUTOMAKE &#8211; Laysa Guedes</title>
+<meta name="robots" content="max-image-preview:large">
+
+<!--script>
+window._wpemojiSettings = {"baseUrl":"https://s.w.org/images/core/emoji/14.0.0/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/14.0.0/svg/","svgExt":".svg","source":{"concatemoji":"wp-includes/js/wp-emoji-release.min.js?ver=81582bdb254a94e4464424087c6479a8"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script-->
+<style>img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="wp-includes/css/dist/block-library/style.min.css?ver=81582bdb254a94e4464424087c6479a8" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="wp-includes/css/classic-themes.min.css?ver=1" media="all">
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="hello-elementor-css" href="wp-content/themes/hello-elementor/style.min.css?ver=2.6.1" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="wp-content/themes/hello-elementor/theme.min.css?ver=2.6.1" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.11.2" media="all">
+<link rel="stylesheet" id="elementor-post-8-css" href="wp-content/uploads/elementor/css/post-8.css?ver=1678112943" media="all">
+<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=2.8.5" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0" media="all">
+<link rel="stylesheet" id="swiper-css" href="wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6" media="all">
+<link rel="stylesheet" id="font-awesome-5-all-css" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.9.50" media="all">
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.11.2" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="wp-content/uploads/elementor/css/global.css?ver=1678112944" media="all">
+<link rel="stylesheet" id="elementor-post-361-css" href="wp-content/uploads/elementor/css/post-361.css?ver=1678733905" media="all">
+<link rel="stylesheet" id="ekit-widget-styles-css" href="wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=2.8.5" media="all">
+<link rel="stylesheet" id="ekit-responsive-css" href="wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=2.8.5" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.1.1" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-3-css" href="wp-content/plugins/master-addons/assets/fonts/linear-icons/linear-icons.css?ver=1.9.9" media="all">
+<link rel="stylesheet" id="elementor-icons-linear-icons-css" href="wp-content/plugins/master-addons/assets/fonts/linear-icons/linear-icons.css?ver=1.9.9" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script src="wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script src="wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script src="wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.11.2" id="font-awesome-4-shim-js"></script>
+<link rel="https://api.w.org/" href="wp-json/">
+<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/361">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd">
+<link rel="canonical" href="automake/">
+<!--link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fmaismeiofio.com.br%2Fautomake%2F">
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fmaismeiofio.com.br%2Fautomake%2F#038;format=xml">
+<meta name="facebook-domain-verification" content="18aawm5pelliukyqr5wgmtzjo7p3gw"-->
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TRM8W2D');</script>
+<!-- End Google Tag Manager -->		<script type="text/javascript">(function () {
+                window.ma_el_fs = { can_use_premium_code: false};
+            })();</script>
+		<meta name="generator" content="Elementor 3.11.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<link rel="icon" href="wp-content/uploads/2023/02/cropped-icone-32x32.png" sizes="32x32">
+<link rel="icon" href="wp-content/uploads/2023/02/cropped-icone-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="wp-content/uploads/2023/02/cropped-icone-180x180.png">
+<meta name="msapplication-TileImage" content="wp-content/uploads/2023/02/cropped-icone-270x270.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
-<body>
-  <header style="background-color: #993366;">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+<body data-rsssl="1" class="page-template page-template-elementor_canvas page page-id-361 elementor-default elementor-template-canvas elementor-kit-8 elementor-page elementor-page-361">
+	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRM8W2D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->		<div data-elementor-type="wp-page" data-elementor-id="361" class="elementor elementor-361">
+									<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-82eee6a elementor-reverse-mobile elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="82eee6a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;opacity-tilt&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2600 131.1" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M0 0L2600 0 2600 69.1 0 0z"></path>
+	<path class="elementor-shape-fill" style="opacity:0.5" d="M0 0L2600 0 2600 69.1 0 69.1z"></path>
+	<path class="elementor-shape-fill" style="opacity:0.25" d="M2600 0L0 0 0 130.1 2600 69.1z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-797b5f5 jltma-glass-effect-no" data-id="797b5f5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a307451 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="a307451" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.2 - 22-02-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img decoding="async" width="800" height="141" src="wp-content/uploads/2023/03/LOGO01-1024x181.png" class="attachment-large size-large wp-image-463" alt="" srcset="wp-content/uploads/2023/03/LOGO01-1024x181.png 1024w, wp-content/uploads/2023/03/LOGO01-300x53.png 300w, wp-content/uploads/2023/03/LOGO01-768x136.png 768w, wp-content/uploads/2023/03/LOGO01-1536x272.png 1536w, wp-content/uploads/2023/03/LOGO01-2048x362.png 2048w" sizes="(max-width: 800px) 100vw, 800px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-f47ed43 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="f47ed43" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="9265" height="1242" src="wp-content/uploads/2023/03/LOGO02.png" class="attachment-full size-full wp-image-464" alt="" srcset="wp-content/uploads/2023/03/LOGO02.png 9265w, wp-content/uploads/2023/03/LOGO02-300x40.png 300w, wp-content/uploads/2023/03/LOGO02-1024x137.png 1024w, wp-content/uploads/2023/03/LOGO02-768x103.png 768w, wp-content/uploads/2023/03/LOGO02-1536x206.png 1536w, wp-content/uploads/2023/03/LOGO02-2048x275.png 2048w" sizes="(max-width: 9265px) 100vw, 9265px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-68ca5d2 jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="68ca5d2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.2 - 22-02-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2 class="elementor-heading-title elementor-size-default">aprenda a se automaquiar com confiança!</h2>		</div>
+				</div>
+				<section class="has_ma_el_bg_slider elementor-section elementor-inner-section elementor-element elementor-element-51f09fd elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="51f09fd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-48840e0 jltma-glass-effect-no" data-id="48840e0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a05092b jltma-glass-effect-no elementor-widget elementor-widget-video" data-id="a05092b" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https://www.youtube.com/watch?v=aZil9pDhorc&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.2 - 22-02-2023 */
+.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;border:none;background-color:#000}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-68e74cb jltma-glass-effect-no" data-id="68e74cb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7b69cb1 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="7b69cb1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.2 - 22-02-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Descubra seu potencial de <b>beleza</b>:</p>
+<p>A maneira mais simples de se maquiar e <b>arrasar </b>no seu dia a dia.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-505c232 jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="505c232" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.2 - 22-02-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9f11b9a elementor-align-center jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="9f11b9a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#preco" class="elementor-button-link elementor-button elementor-size-xl" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO APRENDER A ME MAQUIAR</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-b2fcb7f jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="b2fcb7f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-c2a388e elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="c2a388e" data-element_type="section" data-settings="{&quot;shape_divider_bottom&quot;:&quot;opacity-tilt&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2600 131.1" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M0 0L2600 0 2600 69.1 0 0z"></path>
+	<path class="elementor-shape-fill" style="opacity:0.5" d="M0 0L2600 0 2600 69.1 0 69.1z"></path>
+	<path class="elementor-shape-fill" style="opacity:0.25" d="M2600 0L0 0 0 130.1 2600 69.1z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9758317 jltma-glass-effect-no" data-id="9758317" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-802ef84 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="802ef84" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="141" src="wp-content/uploads/2023/03/LOGO01-1024x181.png" class="attachment-large size-large wp-image-463" alt="" srcset="wp-content/uploads/2023/03/LOGO01-1024x181.png 1024w, wp-content/uploads/2023/03/LOGO01-300x53.png 300w, wp-content/uploads/2023/03/LOGO01-768x136.png 768w, wp-content/uploads/2023/03/LOGO01-1536x272.png 1536w, wp-content/uploads/2023/03/LOGO01-2048x362.png 2048w" sizes="(max-width: 800px) 100vw, 800px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-ec9c8f7 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="ec9c8f7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="107" src="wp-content/uploads/2023/03/LOGO02-1024x137.png" class="attachment-large size-large wp-image-464" alt="" srcset="wp-content/uploads/2023/03/LOGO02-1024x137.png 1024w, wp-content/uploads/2023/03/LOGO02-300x40.png 300w, wp-content/uploads/2023/03/LOGO02-768x103.png 768w, wp-content/uploads/2023/03/LOGO02-1536x206.png 1536w, wp-content/uploads/2023/03/LOGO02-2048x275.png 2048w" sizes="(max-width: 800px) 100vw, 800px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-c6d7b37 jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="c6d7b37" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">aprenda a se automaquiar com confiança!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f7cb912 jltma-glass-effect-no elementor-widget elementor-widget-video" data-id="f7cb912" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https://www.youtube.com/watch?v=aZil9pDhorc&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+				<section class="has_ma_el_bg_slider elementor-section elementor-inner-section elementor-element elementor-element-454474d elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="454474d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d69a3aa jltma-glass-effect-no" data-id="d69a3aa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b10f0a4 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="b10f0a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Descubra seu potencial de <b>beleza</b>:</p>
+<p>A maneira mais simples de se maquiar e <b>arrasar </b>no seu dia a dia.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fecd1b7 jltma-glass-effect-no" data-id="fecd1b7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bbc9032 elementor-align-center jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="bbc9032" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#preco" class="elementor-button-link elementor-button elementor-size-xl" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO APRENDER A ME MAQUIAR</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-ae35fb9 jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="ae35fb9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-4c338ff elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="4c338ff" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2265b26 jltma-glass-effect-no" data-id="2265b26" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-815c86d elementor-hidden-tablet elementor-hidden-mobile jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="815c86d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d61c3fb jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="d61c3fb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><b>Está cansada de gastar dinheiro</b> com maquiagens e pincéis que você não sabe usar? </p>
+<p style="text-align: center;"><b>Cansada de gastar tempo</b> vendo vídeos no Youtube de automaquiagem que sempre faltam informações e até mesmo não podem ser reproduzidos?</p>
+<p style="text-align: center;">Você quer descobrir características antes nunca observadas em si mesma? </p>
+<p style="text-align: center;"><b>Então você precisa aprender a se automaquia</b>r, esse passo em sua vida tornará você uma mulher mais confiante e ainda mais linda. </p>
+<p style="text-align: center;">Esse curso te trará <b>experiências </b>e <b>conhecimentos </b>direcionados capazes de <b>facilitar </b>seu dia a dia, e também tornar comum o ato de se olhar no espelho e se amar. </p>
+<h2 style="text-align: center;"><b>Aproveite essa oportunidade!</b></h2>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3904677 elementor-align-center jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="3904677" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#preco" class="elementor-button-link elementor-button elementor-size-xl" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO FICAR AINDA MAIS LINDA!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-59970c9 jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="59970c9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-03d17e2 elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="03d17e2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;mountains&quot;,&quot;shape_divider_bottom&quot;:&quot;mountains&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+	<path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+	<path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+	<path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+</svg>		</div>
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+	<path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+	<path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+	<path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d88490c jltma-glass-effect-no" data-id="d88490c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3825d55 elementor-hidden-tablet elementor-hidden-mobile jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="3825d55" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f4faedf jltma-glass-effect-no elementor-widget elementor-widget-elementskit-testimonial" data-id="f4faedf" data-element_type="widget" data-widget_type="elementskit-testimonial.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">
+<div class="elementskit-testimonial-slider slick-slider arrow_inside elementskit-default-testimonial " data-config="{&quot;rtl&quot;:false,&quot;arrows&quot;:false,&quot;dots&quot;:false,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:true,&quot;speed&quot;:2000,&quot;slidesPerGroup&quot;:1,&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;320&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1},&quot;768&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1},&quot;1024&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1}}}">
+	<div class="swiper-container">
+        <div class="slick-list swiper-wrapper">
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider testimonial-active">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Meu primeiro curso com a Lay foi em 2016, fiz um curso de automaquiagem, como profissional ela é maravilhosa , mas como professora não tenho nem palavras para explicar, gostei tanto do curso de Automake que resolvi fazer o de maquiagem profissional e entrar nessa área da maquiagem, assim que terminei já comecei a atender e ter meus primeiros retornos financeiros. Me apaixonei tanto pela profissão que em 2019 fiz mais um curso de especialização, que foi um divisor de águas em minha vida! Todos os cursos que eu fiz com a Laysa consegui aproveitar 100%, para mim fez total diferença pois foi os meus primeiros cursos onde eu entrei para área e estou atuando até hoje. Eu só tenho a agradecer ela por todo o aprendizado passado, pois graças a ela me tornei a profissional que hoje sou.</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Evelin Cavalli</strong>
+											<span class="elementskit-author-des">@evelincavalli​</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/3.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/3.jpg 500w, wp-content/uploads/2023/03/3-300x300.jpg 300w, wp-content/uploads/2023/03/3-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider testimonial-active">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Decidi fazer o curso de automaquiagem com a Lay por conta do meu trabalho como Miss e modelo. Muitas vezes para trabalhos e eventos eu mesma faço a minha make e fazer o curso me ajudou muito. Toda vez que alguém elogia a minha make faço questão de falar que fiz o curso com a Lay.</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Deise Caroline - Miss Paraná 2019</strong>
+											<span class="elementskit-author-des">@deisecarool</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/2.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/2.jpg 500w, wp-content/uploads/2023/03/2-300x300.jpg 300w, wp-content/uploads/2023/03/2-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider ">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Fiz o curso com a Laysa a 7 anos atrás e foi essencial para a minha carreira como maquiadora. Uma ótima professora, consegue transmitir seu conhecimento de forma agradável e descontraída. Sempre disposta a mostrar os caminhos para as alunas desenvolverem suas habilidades e fazerem sucesso!</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Viviane Rosa</strong>
+											<span class="elementskit-author-des">@vivianerosamakeup</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/1.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/1.jpg 500w, wp-content/uploads/2023/03/1-300x300.jpg 300w, wp-content/uploads/2023/03/1-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider ">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Fiz um curso de automaquiagem com a Laysa em 2016, aprendi muito, certo dia precisei de uma make e ela não tinha horário e me encorajou a fazer a automaquiagem pois ja tinha aprendido em seu curso, gostei tanto que fiz dois cursos de maquiagem profissional em 2017 e apaerfeiçoamento em 2019, sou grata pelo conhecimento que ela me passou, hoje vivo da maquiagem graças aos cursos da Laysa.</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Mayara Souza</strong>
+											<span class="elementskit-author-des">@maysouzaa.makeuplash</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/4.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/4.jpg 500w, wp-content/uploads/2023/03/4-300x300.jpg 300w, wp-content/uploads/2023/03/4-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+	</div>
+	<ul aria-describedby="paginations" class="slick-dots swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></ul>
+	</div>
+</div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-763e940 elementor-hidden-tablet elementor-hidden-mobile jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="763e940" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-6b6a844 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="6b6a844" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;mountains&quot;,&quot;shape_divider_bottom&quot;:&quot;mountains&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+	<path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+	<path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+	<path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+</svg>		</div>
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+	<path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+	<path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+	<path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adbaa77 jltma-glass-effect-no" data-id="adbaa77" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-729f39a jltma-glass-effect-no elementor-widget elementor-widget-elementskit-testimonial" data-id="729f39a" data-element_type="widget" data-widget_type="elementskit-testimonial.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">
+<div class="elementskit-testimonial-slider slick-slider arrow_inside elementskit-default-testimonial " data-config="{&quot;rtl&quot;:false,&quot;arrows&quot;:false,&quot;dots&quot;:false,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:true,&quot;speed&quot;:2000,&quot;slidesPerGroup&quot;:1,&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;320&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1},&quot;768&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1},&quot;1024&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1}}}">
+	<div class="swiper-container">
+        <div class="slick-list swiper-wrapper">
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider testimonial-active">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Decidi fazer o curso de automaquiagem com a Lay por conta do meu trabalho como Miss e modelo. Muitas vezes para trabalhos e eventos eu mesma faço a minha make e fazer o curso me ajudou muito. Toda vez que alguém elogia a minha make faço questão de falar que fiz o curso com a Lay.</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Deise Caroline - Miss Paraná 2019</strong>
+											<span class="elementskit-author-des">@deisecarool</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/2.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/2.jpg 500w, wp-content/uploads/2023/03/2-300x300.jpg 300w, wp-content/uploads/2023/03/2-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider ">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Fiz o curso com a Laysa a 7 anos atrás e foi essencial para a minha carreira como maquiadora. Uma ótima professora, consegue transmitir seu conhecimento de forma agradável e descontraída. Sempre disposta a mostrar os caminhos para as alunas desenvolverem suas habilidades e fazerem sucesso!</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Viviane Rosa</strong>
+											<span class="elementskit-author-des">@vivianerosamakeup</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/1.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/1.jpg 500w, wp-content/uploads/2023/03/1-300x300.jpg 300w, wp-content/uploads/2023/03/1-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+	</div>
+	<ul aria-describedby="paginations" class="slick-dots swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></ul>
+	</div>
+</div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d3d47a9 jltma-glass-effect-no elementor-widget elementor-widget-elementskit-testimonial" data-id="d3d47a9" data-element_type="widget" data-widget_type="elementskit-testimonial.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">
+<div class="elementskit-testimonial-slider slick-slider arrow_inside elementskit-default-testimonial " data-config="{&quot;rtl&quot;:false,&quot;arrows&quot;:false,&quot;dots&quot;:false,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:true,&quot;speed&quot;:2000,&quot;slidesPerGroup&quot;:1,&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;320&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1},&quot;768&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1},&quot;1024&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1}}}">
+	<div class="swiper-container">
+        <div class="slick-list swiper-wrapper">
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider testimonial-active">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Meu primeiro curso com a Lay foi em 2016, fiz um curso de automaquiagem, como profissional ela é maravilhosa , mas como professora não tenho nem palavras para explicar, gostei tanto do curso de Automake que resolvi fazer o de maquiagem profissional e entrar nessa área da maquiagem, assim que terminei já comecei a atender e ter meus primeiros retornos financeiros. Me apaixonei tanto pela profissão que em 2019 fiz mais um curso de especialização, que foi um divisor de águas em minha vida! Todos os cursos que eu fiz com a Laysa consegui aproveitar 100%, para mim fez total diferença pois foi os meus primeiros cursos onde eu entrei para área e estou atuando até hoje. Eu só tenho a agradecer ela por todo o aprendizado passado, pois graças a ela me tornei a profissional que hoje sou.</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Evelin Cavalli</strong>
+											<span class="elementskit-author-des">@evelincavalli​</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/3.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/3.jpg 500w, wp-content/uploads/2023/03/3-300x300.jpg 300w, wp-content/uploads/2023/03/3-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="swiper-slide">
+				<div class="slick-slide">
+					<div class="elemntskit-testimonial-item">
+						<div class="elementskit-single-testimonial-slider ">
+							<div class="row">
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-commentor-content">
+																															<p>Fiz um curso de automaquiagem com a Laysa em 2016, aprendi muito, certo dia precisei de uma make e ela não tinha horário e me encorajou a fazer a automaquiagem pois ja tinha aprendido em seu curso, gostei tanto que fiz dois cursos de maquiagem profissional em 2017 e apaerfeiçoamento em 2019, sou grata pelo conhecimento que ela me passou, hoje vivo da maquiagem graças aos cursos da Laysa.</p>
+																														<span class="elementskit-profile-info">
+											<strong class="elementskit-author-name">Mayara Souza</strong>
+											<span class="elementskit-author-des">@maysouzaa.makeuplash</span>
+										</span>
+									</div>
+								</div>
+								<div class="col-lg-6 elementkit-testimonial-col">
+									<div class="elementskit-profile-image-card">
+										<img decoding="async" width="500" height="500" src="wp-content/uploads/2023/03/4.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2023/03/4.jpg 500w, wp-content/uploads/2023/03/4-300x300.jpg 300w, wp-content/uploads/2023/03/4-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px">																													</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+	</div>
+	<ul aria-describedby="paginations" class="slick-dots swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></ul>
+	</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-16d5c68 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="16d5c68" data-element_type="section" data-settings="{&quot;shape_divider_top&quot;:&quot;waves&quot;,&quot;shape_divider_top_negative&quot;:&quot;yes&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+	c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+	c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-92efa10 jltma-glass-effect-no" data-id="92efa10" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="has_ma_el_bg_slider elementor-section elementor-inner-section elementor-element elementor-element-bd65565 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="bd65565" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1a968de jltma-glass-effect-no" data-id="1a968de" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1578e76 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="1578e76" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="769" height="1024" src="wp-content/uploads/2023/03/laysa02-769x1024.jpg" class="attachment-large size-large wp-image-493" alt="" srcset="wp-content/uploads/2023/03/laysa02-769x1024.jpg 769w, wp-content/uploads/2023/03/laysa02-225x300.jpg 225w, wp-content/uploads/2023/03/laysa02-768x1023.jpg 768w, wp-content/uploads/2023/03/laysa02-1153x1536.jpg 1153w, wp-content/uploads/2023/03/laysa02.jpg 1201w" sizes="(max-width: 769px) 100vw, 769px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b7ca46c jltma-glass-effect-no" data-id="b7ca46c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a65ce08 jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="a65ce08" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">LAYSA GUEDES</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b77a757 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="b77a757" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span class="S1PPyQ">Maquiadora profissional a mais de 10 anos dona do ateliê Laysa Guedes, iniciou sua carreira no mundo da make com apenas 15 anos e agora aos 29 anos e com uma ampla experiência na área já formou mais de 500 pessoas com seus cursos presenciais, Laysa possui mais de 10 diplomas de maquiagem e também é formada em designe de sobrancelhas.&nbsp;</span></p>
+<p><span class="S1PPyQ">Ama o que faz, ama ensinar tudo que sabe com muito carinho e dedicação, atualmente Laysa é maquiadora profissional referência em sua cidade e região, é também influenciadora de automaquiagem, suas habilidades de simplificar a automaquiagem e também o dia a dia de muitas mulheres permite que seu engajamento nas redes sociais cresça a cada dia e que seus seguidores se identifiquem.</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-99c6b64 elementor-align-center jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="99c6b64" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#preco" class="elementor-button-link elementor-button elementor-size-xl" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO APRENDER COM A LAYSA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-02c7e42 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="02c7e42" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;wave-brush&quot;,&quot;shape_divider_bottom&quot;:&quot;wave-brush&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 283.5 27.8" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"></path>
+	<path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"></path>
+	<path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"></path>
+	<path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"></path>
+	<path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"></path>
+	<path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"></path>
+	<path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"></path>
+	<path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"></path>
+	<path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"></path>
+</svg>		</div>
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 283.5 27.8" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"></path>
+	<path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"></path>
+	<path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"></path>
+	<path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"></path>
+	<path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"></path>
+	<path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"></path>
+	<path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"></path>
+	<path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"></path>
+	<path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d89b5c6 jltma-glass-effect-no" data-id="d89b5c6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ba27632 jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="ba27632" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a366524 jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="a366524" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">O CURSO!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ff72afa jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="ff72afa" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span class="S1PPyQ">No meu curso você vai aprender de uma forma simplificada a se automaquiar e tornar seu dia melhor, se sentindo autoconfiante no trabalho, na escola, seja onde for estará preparada para arrasar.</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-be9626b jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="be9626b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">O que você irá aprender?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-164a792 jltma-timeline-align--center jltma-timeline-align-tablet--left jltma-timeline-align-mobile--left jltma-timeline-cards-align--top jltma-timeline-animate jltma-glass-effect-no elementor-widget elementor-widget-ma-timeline" data-id="164a792" data-element_type="widget" data-settings="{&quot;ma_el_timeline_design_type&quot;:&quot;vertical&quot;,&quot;item_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;line_location&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]}}" data-widget_type="ma-timeline.default">
+				<div class="elementor-widget-container">
+					<div class="jltma-timeline jltma-timeline--vertical jltma-timeline-custom elementor-jltma-elmaement-164a792-361 ">
 
-  <section id="hero" style="background-color: #d1c4e9;">
-    <div class="container">
-      <div class="hero-content">
-        <h1>Descubra como fazer a sua maquiagem perfeita!</h1>
-        <h2>Aprenda com as melhores profissionais de automaquiagem.</h2>
-        <a href="#" class="btn btn-primary">Inscreva-se agora</a>
-      </div>
-    </div>
-  </section>
+					<div class="jltma-timeline__line">
+			<div class="jltma-timeline__line__inner"></div>
+		</div>
+			<div class="elementor-repeater-item-e97d3b4 jltma-blog-timeline-post jltma-timeline__item timeline-item active">
+			<div class="timeline-item__point">
+				<div class="jltma-icon jltma-timeline-post-type-icon jltma-icon-support--svg jltma-timeline__item__icon"><i class="lnr lnr-star"></i></div>			</div>
+			<div class="timeline-item__card-wrapper">
+				<div class="jltma-timeline-post-inner">
+					<div class="timeline-item__card">
+						<div class="timeline-item__content-wrapper">
 
-  <section id="features" style="background-color: #ede7f6;">
-    <div class="container">
-      <h2>Por que escolher o nosso curso?</h2>
-      <div class="feature-box">
-        <div class="feature-icon"><i class="fa fa-check-circle"></i></div>
-        <div class="feature-content">
-          <h3>Aulas práticas e objetivas</h3>
-          <p>Com nosso curso, você irá aprender as técnicas mais avançadas de automaquiagem de forma fácil e rápida.</p>
-        </div>
-      </div>
-      <div class="feature-box">
-        <div class="feature-icon"><i class="fa fa-check-circle"></i></div>
-        <div class="feature-content">
-          <h3>Profissionais especializadas</h3>
-          <p>Nossas professoras são as melhores profissionais de automaquiagem do mercado, com anos de experiência e diversas formações.</p>
-        </div>
-      </div>
-      <div class="feature-box">
-        <div class="feature-icon"><i class="fa fa-check-circle"></i></div>
-        <div class="feature-content">
-          <h3>Flexibilidade de horários</h3>
-          <p>Você poderá assistir às aulas no seu próprio ritmo, de acordo com a sua disponibilidade.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+							
+											<div class="timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+			
+							<div class="jltma-timeline-entry-content">
+								<h2><span class="S1PPyQ">Módulo 1 &#8211; Apresentação</span></h2>
+<p class="_04xlpA direction-ltr align-start para-style-body" style="text-align: left;"><span class="S1PPyQ">Nesse módulo será apresentado o roteiro do curso com tudo que será ensinado.</span></p>							</div>
+								<div class="timeline-item__card__arrow"></div>
+						</div>
+<!-- /.post -->
+					</div>
+				</div>
+<!-- /.jltma-timeline-post-inner -->
+			</div> <!-- card-wrapper -->
+			<div class="timeline-item__meta-wrapper">
+								<div class="timeline-item__meta meta timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+						</div>
+		</div>
 
-  <section id="testimonials" style="background-color: #f3e5f5;">
-    <div class="container">
-      <h2>Depoimentos</h2>
-      <div class="testimonial-box">
-        <div class="testimonial-content">
-          <p>Eu já tinha algumas noções de maquiagem, mas com esse curso eu aprendi técnicas incríveis que nunca tinha visto antes. Recomendo muito!</p>
-        </div>
-        <div class="testimonial-author">
-          <img src="https://via.placeholder.com/150x150" alt="Foto do autor do depoimento">
-          <div>
-            <h4>Maria Silva</h4>
-            <p>Aluna do curso de automaquiagem</p>
-          </div>
+			<div class="elementor-repeater-item-9113a6d jltma-blog-timeline-post jltma-timeline__item timeline-item ">
+			<div class="timeline-item__point">
+				<div class="jltma-icon jltma-timeline-post-type-icon jltma-icon-support--svg jltma-timeline__item__icon"><i class="lnr lnr-star"></i></div>			</div>
+			<div class="timeline-item__card-wrapper">
+				<div class="jltma-timeline-post-inner">
+					<div class="timeline-item__card">
+						<div class="timeline-item__content-wrapper">
 
+							
+											<div class="timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+			
+							<div class="jltma-timeline-entry-content">
+								<h2>
+<span class="S1PPyQ">Módulo 2 &#8211; </span><span class="S1PPyQ">Automaquiagem</span>
+</h2>
+<p class="_04xlpA direction-ltr align-end para-style-body"><span class="S1PPyQ">Nesse módulo será ensina o passo a passo de como se automaquiar com técnicas simples e perfeitas.</span></p>							</div>
+								<div class="timeline-item__card__arrow"></div>
+						</div>
+<!-- /.post -->
+					</div>
+				</div>
+<!-- /.jltma-timeline-post-inner -->
+			</div> <!-- card-wrapper -->
+			<div class="timeline-item__meta-wrapper">
+								<div class="timeline-item__meta meta timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+						</div>
+		</div>
 
+			<div class="elementor-repeater-item-c40a457 jltma-blog-timeline-post jltma-timeline__item timeline-item ">
+			<div class="timeline-item__point">
+				<div class="jltma-icon jltma-timeline-post-type-icon jltma-icon-support--svg jltma-timeline__item__icon"><i class="lnr lnr-star"></i></div>			</div>
+			<div class="timeline-item__card-wrapper">
+				<div class="jltma-timeline-post-inner">
+					<div class="timeline-item__card">
+						<div class="timeline-item__content-wrapper">
 
+							
+											<div class="timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+			
+							<div class="jltma-timeline-entry-content">
+								<h2>
+<span class="S1PPyQ">Módulo 3 &#8211; </span><span class="S1PPyQ">Dicas de maquiagens</span>
+</h2>
+<p class="_04xlpA direction-ltr align-start para-style-body"><span class="S1PPyQ">Nesse módulo será dado várias dicas sobre maquiagens (sombras, pincéis, cores, etc), também materiais que não podem faltar no dia-a-dia.</span></p>							</div>
+								<div class="timeline-item__card__arrow"></div>
+						</div>
+<!-- /.post -->
+					</div>
+				</div>
+<!-- /.jltma-timeline-post-inner -->
+			</div> <!-- card-wrapper -->
+			<div class="timeline-item__meta-wrapper">
+								<div class="timeline-item__meta meta timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+						</div>
+		</div>
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page Curso de Automaquiagem</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
-  <header class="header">
-    <nav class="navbar">
-      <a href="#" class="logo">Curso de Automaquiagem</a>
-      <ul class="nav-links">
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <div class="header-content">
-      <h1 class="title">Aprenda a se maquiar como uma profissional</h1>
-      <p class="subtitle">Com o nosso curso de automaquiagem, você irá aprender as melhores técnicas e truques para se maquiar com perfeição</p>
-      <a href="#" class="btn btn-primary">Quero me inscrever</a>
-    </div>
-  </header>
+			<div class="elementor-repeater-item-5f7fd32 jltma-blog-timeline-post jltma-timeline__item timeline-item ">
+			<div class="timeline-item__point">
+				<div class="jltma-icon jltma-timeline-post-type-icon jltma-icon-support--svg jltma-timeline__item__icon"><i class="lnr lnr-star"></i></div>			</div>
+			<div class="timeline-item__card-wrapper">
+				<div class="jltma-timeline-post-inner">
+					<div class="timeline-item__card">
+						<div class="timeline-item__content-wrapper">
 
-  <section class="section-a">
-    <div class="container">
-      <h2 class="section-title">Por que fazer o nosso curso?</h2>
-      <div class="row">
-        <div class="col">
-          <h3 class="col-title">Aprenda as melhores técnicas de maquiagem</h3>
-          <p class="col-text">Com o nosso curso, você irá aprender as técnicas mais modernas e eficientes de maquiagem, garantindo um resultado profissional.</p>
-        </div>
-        <div class="col">
-          <h3 class="col-title">Aulas práticas com profissionais qualificados</h3>
-          <p class="col-text">Nossas aulas são ministradas por profissionais qualificados, que irão te ensinar tudo o que você precisa saber sobre maquiagem.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+							
+											<div class="timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+			
+							<div class="jltma-timeline-entry-content">
+								<h2><span class="S1PPyQ">Bônus</span></h2>
+<p class="_04xlpA direction-ltr align-end para-style-body"><span class="S1PPyQ">Nesse módulo bônus será ensino como transformar sua maquiagem utilizada durante o dia, para utilizar a noite, com uma simples técnica.</span></p>							</div>
+								<div class="timeline-item__card__arrow"></div>
+						</div>
+<!-- /.post -->
+					</div>
+				</div>
+<!-- /.jltma-timeline-post-inner -->
+			</div> <!-- card-wrapper -->
+			<div class="timeline-item__meta-wrapper">
+								<div class="timeline-item__meta meta timeline-item__meta meta timeline-item__meta meta">
+									</div>
+<!-- meta -->
+						</div>
+		</div>
 
-  <section class="section-b">
-    <div class="container">
-      <h2 class="section-title">Depoimentos</h2>
-      <div class="row">
-        <div class="col">
-          <div class="testimonial">
-            <img src="https://i.imgur.com/cTcSgmx.jpg" alt="Depoimento 1" class="testimonial-img">
-            <p class="testimonial-text">"O curso de automaquiagem foi uma experiência incrível para mim. Aprendi técnicas que nunca imaginei e agora me sinto muito mais segura ao me maquiar."</p>
-            <p class="testimonial-author">- Maria Silva</p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="testimonial">
-            <img src="https://i.imgur.com/FtEa1tW.jpg" alt="Depoimento 2" class="testimonial-img">
-            <p class="testimonial-text">"Eu sempre tive dificuldade em me maquiar, mas com as técnicas ensinadas neste curso, eu finalmente aprendi a me maquiar e me sentir mais confiante!"</p>
-<p class="testimonial-author">- Ana Paula</p>
-</div>
-</div>
-</div>
-<!-- Price section -->
-    <div class="price-section">
-      <h2 class="price-title">Aprenda a se maquiar por apenas:</h2>
-      <p class="price">R$147</p>
-      <a href="#" class="cta-btn">Inscreva-se agora</a>
-    </div>
+	
 
-  </div>
-</div>
-</section>
-<!-- Footer section -->
-<footer class="footer-section">
-  <div class="container">
-    <p>&copy; 2023 by Automakeup. Proudly created with Elementor.</p>
-  </div>
-</footer>
-<!-- JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="js/script.js"></script>
-</body>
+		</div>
+			</div>
+				</div>
+				<div class="elementor-element elementor-element-a7fec12 jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="a7fec12" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-4bae7de elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="4bae7de" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0665b0 jltma-glass-effect-no" data-id="e0665b0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="has_ma_el_bg_slider elementor-section elementor-inner-section elementor-element elementor-element-131eec2 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="131eec2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f7fa957 jltma-glass-effect-no" data-id="f7fa957" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f0d2c29 jltma-glass-effect-no" data-id="f0d2c29" data-element_type="column" id="preco">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4a3be1b jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="4a3be1b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="300" height="300" src="wp-content/uploads/2023/03/logo03-300x300.jpg" class="attachment-medium size-medium wp-image-474" alt="" srcset="wp-content/uploads/2023/03/logo03-300x300.jpg 300w, wp-content/uploads/2023/03/logo03-150x150.jpg 150w, wp-content/uploads/2023/03/logo03.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-b89d400 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="b89d400" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h3 style="text-align: center;"><strong><span style="color: #ff6600;"><del>De R$ 297,00</del></span></strong></h3>
+<p style="text-align: center;">por apenas</p>
+<h1 style="text-align: center;"><strong><span style="color: #339966;">R$ 147,00</span></strong></h1>
+<h3 style="text-align: center;"><span style="color: #339966;">ou 12x de R$ 14,67</span></h3>
+<h2 style="text-align: center;"><strong>ACESSO VITALÍCIO</strong></h2>						</div>
+				</div>
+				<div class="elementor-element elementor-element-11a5135 elementor-align-center jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="11a5135" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://pay.hotmart.com/W80689775J?off=505b4k9k" class="elementor-button-link elementor-button elementor-size-xl" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO APRENDER A ME MAQUIAR</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0d2de41 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="0d2de41" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul>
+<li>Acesso Completo ao Curso</li>
+<li>Acesso Vitalício</li>
+<li>Garantia de Reembolso 7 dias</li>
+<li>Melhor plataforma de Cursos Online &#8211; Hotmart</li>
+</ul>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f5b2f87 jltma-glass-effect-no" data-id="f5b2f87" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-c64a732 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="c64a732" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="460" height="174" src="wp-content/uploads/2023/02/icons-meio-de-pagamento.png" class="attachment-large size-large wp-image-235" alt="" srcset="wp-content/uploads/2023/02/icons-meio-de-pagamento.png 460w, wp-content/uploads/2023/02/icons-meio-de-pagamento-300x113.png 300w" sizes="(max-width: 460px) 100vw, 460px">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-99ee996 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="99ee996" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c595ad5 jltma-glass-effect-no" data-id="c595ad5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1cf1a94 jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="1cf1a94" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="410" height="410" src="wp-content/uploads/2023/03/7-dias-garantia.png" class="attachment-large size-large wp-image-437" alt="" srcset="wp-content/uploads/2023/03/7-dias-garantia.png 410w, wp-content/uploads/2023/03/7-dias-garantia-300x300.png 300w, wp-content/uploads/2023/03/7-dias-garantia-150x150.png 150w" sizes="(max-width: 410px) 100vw, 410px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-62a0b2c jltma-glass-effect-no" data-id="62a0b2c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-127acc7 jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="127acc7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">FIQUE TRANQUILA</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-58005b1 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="58005b1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Você tem direito de cancelar a sua compra até 7 dias após o pagamento. Assim, você pode experimentar todo conteúdo sem medo, depois dos 7 dias seu acesso permanecerá vitalício, ou seja, você poderá sempre acessar os conteúdos!</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-26a9071 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="26a9071" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b22f704 jltma-glass-effect-no" data-id="b22f704" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-69fe93a jltma-glass-effect-no elementor-widget elementor-widget-heading" data-id="69fe93a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">PERGUNTAS FREQUENTES</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7000c8f jltma-glass-effect-no elementor-widget elementor-widget-toggle" data-id="7000c8f" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.2 - 22-02-2023 */
+.elementor-toggle{text-align:left}.elementor-toggle .elementor-tab-title{font-weight:700;line-height:1;margin:0;padding:15px;border-bottom:1px solid #d4d4d4;cursor:pointer;outline:none}.elementor-toggle .elementor-tab-title .elementor-toggle-icon{display:inline-block;width:1em}.elementor-toggle .elementor-tab-title .elementor-toggle-icon svg{-webkit-margin-start:-5px;margin-inline-start:-5px;width:1em;height:1em}.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-right{float:right;text-align:right}.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-left{float:left;text-align:left}.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-closed{display:block}.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-opened{display:none}.elementor-toggle .elementor-tab-title.elementor-active{border-bottom:none}.elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-closed{display:none}.elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-opened{display:block}.elementor-toggle .elementor-tab-content{padding:15px;border-bottom:1px solid #d4d4d4;display:none}@media (max-width:767px){.elementor-toggle .elementor-tab-title{padding:12px}.elementor-toggle .elementor-tab-content{padding:12px 10px}}.e-con-inner>.elementor-widget-toggle,.e-con>.elementor-widget-toggle{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1171" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1171" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Qual o formato do curso?</a>
+					</div>
+
+					<div id="elementor-tab-content-1171" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1171"><p class="_04xlpA direction-ltr align-start para-style-body"><span class="S1PPyQ">Curso 100% on-line. Assista de qualquer lugar e a qualquer hora.</span></p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1172" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1172" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Quais as formas de pagamento?</a>
+					</div>
+
+					<div id="elementor-tab-content-1172" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1172"><p><span class="S1PPyQ">Você pode fazer seu pagamento via cartões de crédito, débito, pix ou boleto bancário.</span></p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1173" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1173" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Por quanto tempo terei acesso ao curso?</a>
+					</div>
+
+					<div id="elementor-tab-content-1173" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1173"><p>O acesso é vitalício a este curso.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1174" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1174" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Como vou receber o curso?</a>
+					</div>
+
+					<div id="elementor-tab-content-1174" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1174"><p><span class="S1PPyQ">Os dados de acesso ao curso serão enviados para o seu e-mail após a conclusão do pedido e da confirmação de pagamento.</span></p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1175" class="elementor-tab-title" data-tab="5" role="tab" aria-controls="elementor-tab-content-1175" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Qual o valor do curso?</a>
+					</div>
+
+					<div id="elementor-tab-content-1175" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-1175"><p><span class="S1PPyQ">O preço do curso de automaquiagem AUTOMAKE é apenas R$147,00 (pagamento único) ou podendo dividir em até 12x de R$14,63.</span></p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1176" class="elementor-tab-title" data-tab="6" role="tab" aria-controls="elementor-tab-content-1176" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Qualquer pessoa pode fazer o curso?</a>
+					</div>
+
+					<div id="elementor-tab-content-1176" class="elementor-tab-content elementor-clearfix" data-tab="6" role="tabpanel" aria-labelledby="elementor-tab-title-1176"><p><span class="S1PPyQ">Sim, qualquer pessoa pode fazer o curso, pois todas as técnicas passadas são para todos os tipos de pele e para todos os públicos.</span></p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-8b16189 elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="8b16189" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2a98c6b jltma-glass-effect-no" data-id="2a98c6b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-451b095 elementor-hidden-tablet elementor-hidden-mobile jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="451b095" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"> Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9cdf13c jltma-glass-effect-no elementor-widget elementor-widget-image" data-id="9cdf13c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="141" src="wp-content/uploads/2023/03/LOGO01-1024x181.png" class="attachment-large size-large wp-image-463" alt="" srcset="wp-content/uploads/2023/03/LOGO01-1024x181.png 1024w, wp-content/uploads/2023/03/LOGO01-300x53.png 300w, wp-content/uploads/2023/03/LOGO01-768x136.png 768w, wp-content/uploads/2023/03/LOGO01-1536x272.png 1536w, wp-content/uploads/2023/03/LOGO01-2048x362.png 2048w" sizes="(max-width: 800px) 100vw, 800px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-1765bc3 jltma-glass-effect-no elementor-widget elementor-widget-text-editor" data-id="1765bc3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">AUTOMAKE É UMA MARCA DA EMPRESA LAYSA GUEDES MAKEUP</p>
+<p style="text-align: center;">Todos os Direitos Reservados</p>
+<p style="text-align: center;">32.045.534/0001-20</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="has_ma_el_bg_slider elementor-section elementor-top-section elementor-element elementor-element-03ca688 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default jltma-glass-effect-no" data-id="03ca688" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-narrow">
+					<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18fce77 jltma-glass-effect-no" data-id="18fce77" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a78d382 elementor-align-right jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="a78d382" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-xs" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">TERMOS DE USO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-76ad9d1 jltma-glass-effect-no" data-id="76ad9d1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-443f408 elementor-align-left elementor-mobile-align-left jltma-glass-effect-no elementor-widget elementor-widget-button" data-id="443f408" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-xs" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">POLÍTICA DE PRIVACIDADE</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		<link rel="stylesheet" id="master-addons-main-style-css" href="wp-content/plugins/master-addons/assets/css/master-addons-styles.css?ver=81582bdb254a94e4464424087c6479a8" media="all">
+<script src="wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js"></script>
+<script src="wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=2.8.5" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">var elementskit = {
+			resturl: 'wp-json/elementskit/v1/',
+		}</script>
+<script src="wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=2.8.5" id="ekit-widget-scripts-js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.6/js/swiper.js?ver=1.9.9" id="swiper-js"></script>
+<script src="wp-content/plugins/master-addons/assets/js/timeline.js?ver=1.9.9" id="jltma-timeline-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.2" id="elementor-webpack-runtime-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.2" id="elementor-frontend-modules-js"></script>
+<script src="wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir vídeo","previous":"Anterior","next":"Próximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Celular","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Celular extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.11.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"hello-theme-header-footer":true,"landing-pages":true,"kit-elements-defaults":true},"urls":{"assets":"https:\/\/maismeiofio.com.br\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":361,"title":"AUTOMAKE%20%E2%80%93%20MaisMeiofio","excerpt":"","featuredImage":false}};</script>
+<script src="wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.2" id="elementor-frontend-js"></script>
+<script src="wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.js?ver=2.8.5" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">var ekit_config = {"ajaxurl":"https:\/\/maismeiofio.com.br\/wp-admin\/admin-ajax.php","nonce":"a9a51f916c"};</script>
+<script src="wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=2.8.5" id="elementskit-elementor-js"></script>
+<script src="wp-content/plugins/master-addons/assets/js/plugins.js?ver=1.9.9" id="master-addons-plugins-js"></script>
+<script id="master-addons-scripts-js-extra">var jltma_scripts = {"plugin_url":"https:\/\/maismeiofio.com.br\/wp-content\/plugins\/master-addons","ajaxurl":"https:\/\/maismeiofio.com.br\/wp-admin\/admin-ajax.php","nonce":"master-addons-elementor"};
+var jltma_data_table_vars = {"lengthMenu":"Display _MENU_ records per page","zeroRecords":"Nothing found - sorry","info":"Showing page _PAGE_ of _PAGES_","infoEmpty":"No records available","infoFiltered":"(filtered from _MAX_ total records)","searchPlaceholder":"Search...","processing":"Processing...","csvHtml5":"CSV","excelHtml5":"Excel","pdfHtml5":"PDF","print":"Print"};</script>
+<script src="wp-content/plugins/master-addons/assets/js/master-addons-scripts.js?ver=1.9.9" id="master-addons-scripts-js"></script>
+	</body>
 </html>
